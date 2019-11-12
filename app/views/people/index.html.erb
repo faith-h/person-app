@@ -4,5 +4,5 @@
   <button> <%= link_to 'Show Person', person_path(person) %> </button>
   <button> <%= link_to 'New Person', new_person_path %> </button>
   <button> <%= link_to 'Edit Person', edit_person_path(person) %> </button>
-  <button> <%= link_to 'Destroy Person', person %> </button>
+  <button> <%= link_to 'Destroy Person', person, method: :delete %> </button>
   <% end %>
